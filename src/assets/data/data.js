@@ -46,7 +46,7 @@ export const data = {
   },
 
   link: {
-    calendar: "https://calendar.app.google/oSVLRMYC79GzuA4f9",
+    calendar: "https://calendar.app.google/6dy3U1V85QqCwGHW7",
     map: "https://www.google.com/maps/dir/-6.2748246,106.8268098/hotel+ritz+carlton/@-6.2534754,106.8076584,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x2e69f3e53dc5171b:0x27a868ad3cd40c7d!2m2!1d106.827234!2d-6.2289029?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D",
   },
 
