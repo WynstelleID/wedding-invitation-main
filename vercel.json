@@ -16,16 +16,17 @@
     {
       "src": "src/js/**",
       "use": "@vercel/static"
+    },
+    {
+      "src": "src/assets/**",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
     { "src": "/assets/styles/(.*)", "dest": "/src/assets/styles/$1" },
     { "src": "/css/(.*)", "dest": "/src/css/$1" },
     { "src": "/js/(.*)", "dest": "/src/js/$1" },
-    { "src": "/(.*)", "dest": "/index.html" },
-    {
-      "src": "/(.*\\.(png|jpg|jpeg|webp|svg|gif|ico|css|js|map|woff|woff2|ttf|otf|eot|pdf))$",
-      "dest": "/src/assets/$1"
-    }
+    { "src": "/assets/(.*)", "dest": "/src/assets/$1" },
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
