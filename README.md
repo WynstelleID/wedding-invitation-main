@@ -139,4 +139,4 @@ This project redesigns the wedding invitation from [Dewanakl's GitHub repository
 
 ---
 
-Thank you for visiting the repository. I hope your wedding day is smooth and filled with joy!
+Thank you for visiting the repository. I hope your wedding day is smooth and filled with joy! 😊
