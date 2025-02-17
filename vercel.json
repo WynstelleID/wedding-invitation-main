@@ -16,29 +16,12 @@
     {
       "src": "src/js/**",
       "use": "@vercel/static"
-    },
-    {
-      "src": "src/assets/audio/**",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "src/assets/data/**",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "src/assets/images/**",
-      "use": "@vercel/static"
-    },
-
-    {
-      "src": "src/main.js",
-      "use": "@vercel/static"
     }
   ],
   "routes": [
     { "src": "/src/assets/styles/(.*)", "dest": "/src/assets/styles/$1" },
-    { "src": "/src/assets/css/(.*)", "dest": "/src/assets/css/$1" },
-    { "src": "/src/assets/js/(.*)", "dest": "/src/assets/js/$1" },
+    { "src": "/src/css/(.*)", "dest": "/src/css/$1" },
+    { "src": "/src/js/(.*)", "dest": "/src/js/$1" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
