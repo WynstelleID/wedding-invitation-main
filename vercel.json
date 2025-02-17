@@ -10,11 +10,23 @@
       "use": "@vercel/static"
     },
     {
-      "src": "src/assets/css/**",
+      "src": "src/css/**",
       "use": "@vercel/static"
     },
     {
-      "src": "src/assets/js/**",
+      "src": "src/js/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "src/assets/audio/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "src/assets/data/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "src/assets/images/**",
       "use": "@vercel/static"
     }
   ],
