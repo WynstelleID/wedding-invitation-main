@@ -28,6 +28,11 @@
     {
       "src": "src/assets/images/**",
       "use": "@vercel/static"
+    },
+
+    {
+      "src": "src/main.js",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
